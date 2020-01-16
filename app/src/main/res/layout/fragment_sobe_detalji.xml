@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/jednokrevetna" />
+
+
+    <TextView
+        android:id="@+id/resTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey_800"
+        android:fontFamily="@font/roboto"
+        android:padding="10dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold"
+        android:text="Jednokrevetna"
+        android:layout_below="@+id/img"
+        />
+    <TextView
+        android:id="@+id/resDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey_800"
+        android:fontFamily="@font/roboto"
+        android:padding="10dp"
+        android:textAppearance="@android:style/TextAppearance"
+
+        android:text="Neki tekst"
+        android:layout_below="@+id/resTitle"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnIdiNaRezervacije"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/blue"
+        android:layout_marginBottom="0dp"
+        android:clickable="true"
+        android:src="@drawable/ic_add_white_24dp" />
+
+
+
+  </RelativeLayout>

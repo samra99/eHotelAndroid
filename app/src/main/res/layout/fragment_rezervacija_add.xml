@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtDolazakOdlazak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto"
+
+            android:text="Dolazak/Odlazak:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/txtDatumDolaskaLayout"
+            android:layout_below="@id/txtDolazakOdlazak"
+            >
+
+            <EditText
+                android:id="@+id/txtDatumDolaska"
+                android:layout_width="match_parent"
+                android:focusable="false"
+                android:focusedByDefault="false"
+
+                android:editable="false"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:hint="Datum dolaska"
+                android:inputType="textVisiblePassword"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/btnDatePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/txtDolazakOdlazak"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+
+            android:layout_toRightOf="@id/txtDatumDolaskaLayout"
+            android:src="@drawable/ic_date_range_white_24dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/txtDatumOdlaskaLayout"
+            android:layout_below="@id/txtDatumDolaskaLayout"
+            >
+
+            <EditText
+                android:id="@+id/txtDatumOdlaska"
+                android:layout_width="match_parent"
+                android:focusable="false"
+                android:focusedByDefault="false"
+
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:hint="Datum odlaska"
+                android:inputType="textVisiblePassword"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/btnDatePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/txtDatumDolaskaLayout"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+
+            android:layout_toRightOf="@id/txtDatumOdlaskaLayout"
+            android:src="@drawable/ic_date_range_white_24dp" />
+
+
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtZauzimanja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto"
+            android:layout_below="@+id/txtDatumOdlaskaLayout"
+            android:text="Zauzimanje:"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/txtBrojSobaLayout"
+            android:layout_below="@id/txtZauzimanja"
+            >
+
+            <EditText
+                android:id="@+id/txtBrojSoba"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Broj soba"
+
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:inputType="number"
+                android:textSize="14dp"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/txtBrojOsobaLayout"
+            android:layout_below="@id/txtBrojSobaLayout"
+            >
+
+            <EditText
+                android:id="@+id/txtBrojOsoba"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Broj osoba"
+
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:inputType="number"
+                android:textSize="14dp"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/txtBrojDjeceLayout"
+            android:layout_below="@id/txtBrojOsobaLayout"
+            >
+
+            <EditText
+                android:id="@+id/txtBrojDjece"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Broj djece"
+
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:inputType="number"
+                android:textSize="14dp"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnSnimiRezervaciju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rezerviši"
+            android:textAlignment="center"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/black"
+            android:layout_below="@id/txtBrojDjeceLayout"
+            android:backgroundTint="@color/blue"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:minWidth="64dp"
+            android:textSize="14dp"
+            android:elevation="2dp"
+            android:layout_alignParentRight="true"
+            android:theme="@style/PrimaryButton"
+
+            />
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

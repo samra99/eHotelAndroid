@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_sobe"
+            android:icon="@drawable/ic_hotel"
+            android:title="Sobe" />
+        <item
+            android:id="@+id/nav_reservation"
+            android:icon="@drawable/ic_reservation"
+            android:title="Rezervacije" />
+
+        <item
+            android:id="@+id/nav_odjava"
+            android:icon="@drawable/ic_logut"
+            android:title="@string/Odjava" />
+    </group>
+
+
+
+</menu>

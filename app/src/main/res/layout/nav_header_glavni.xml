@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/hotellogo"
+    android:gravity="bottom"
+    android:id="@+id/HeaderGlavni"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TextView
+        android:id="@+id/txtImePrezime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="36dp"
+
+        android:layout_marginLeft="14dp"
+        android:fontFamily="@font/roboto"
+        android:textStyle="bold"
+        android:text="Lejla Špago"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txtMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtImePrezime"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="-34dp"
+        android:fontFamily="@font/roboto"
+android:textStyle="bold"
+        android:text="lejla.spago@edu.fit.ba"
+        android:textColor="@color/black" />
+
+</LinearLayout>

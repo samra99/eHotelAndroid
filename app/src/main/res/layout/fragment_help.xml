@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/Slika"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hotellogo"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <TextView
+                android:id="@+id/article_subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Slika"
+                android:padding="10dp"
+                android:textAppearance="@android:style/TextAppearance"
+                android:text="O nama"
+                android:fontFamily="@font/roboto"
+                />
+
+
+            <TextView
+                android:id="@+id/article_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:lineSpacingExtra="5sp"
+                android:text="@string/article_text"
+                android:layout_below="@+id/article_subheading"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/article_subheading_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_1"
+                android:padding="10dp"
+                android:textAppearance="@android:style/TextAppearance"
+                android:text="Adresa"
+                android:fontFamily="@font/roboto"
+                />
+            <TextView
+                android:id="@+id/article_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_subheading_1"
+                android:fontFamily="@font/roboto"
+                android:lineSpacingExtra="5sp"
+                android:text="@string/article_text_1"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/article_subheading_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_2"
+                android:padding="10dp"
+                android:textAppearance="@android:style/TextAppearance"
+                android:text="Kontakt"
+                android:fontFamily="@font/roboto"
+                />
+            <TextView
+                android:id="@+id/article_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_subheading_2"
+                android:fontFamily="@font/roboto"
+                android:lineSpacingExtra="5sp"
+                android:text="@string/article_subtitle_2"
+                android:padding="10dp"
+                />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

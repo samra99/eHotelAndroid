@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Hotel Holiday</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_glavni">Hotel Haven</string>
+
+    <string name="article_subtitle">Hello blank fragment</string>
+    <string name="article_text">Hotel Holiday je projektirao proslavljeni bosanski arhitekt Ivan Štraus u periodu 1982-1983 te je isti otvoren za XIV Zimske olimpijske igre Sarajevo 1984. godine i od tada je, kao svjedok novije historije Bosne i Hercegovine, postao nezaobilazno mjesto za poslovne putnike i turiste.
+        Sljednik svjetskog hotelskog lanca i hotela Holiday Inn te ujedno i dio poznate grupacije Europe Group, na čelu sa Hotelom Europe, čija tradicija datira od davne 1882.godine, hotel Holiday će oduševiti goste svojom tradicionalnom elegancijom, vrhunskom uslugom i sadržajima.Prostoran i komforan, modernog enterijera sa intimnom atmosferom, Hotel Holiday se prostire na deset etaža sa ukupno 380 ugodno opremljenih smještajnih jedinica, od kojih su 364 sobe i 16 apartmana. Sve hotelske sobe su klimatizirane sa TV i mini barom, kupaonicom sa kadom i tušem, sušilom za kosu i ogrtačima. Sve navedene smještajne jedinice uključuju prostor za sjedenje, satelitsku TV i besplatni internet.</string>
+    <string name="article_subtitle_1">Hello blank fragment</string>
+    <string name="article_text_1">Zmaja od Bosne 4
+       71000 Sarajevo
+       Bosna i Hercegovina
+</string>
+    <string name="article_subtitle_2">
+        Tel: +387 (0)33 288 200 \n
+        Fax: +387 (0)33 288 222 \n
+        E-mail: reception@hotelholiday.ba
+</string>
+    <string name="article_text_2">Hello blank fragment</string>
+    <string name="article_subtitle_3">Hello blank fragment</string>
+    <string name="article_text_3">Hello blank fragment</string>
+    <string name="Odjava">Odjava</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">OPEN</string>
+    <string name="navigation_drawer_close">CLOSE</string>
+</resources><!-- TODO: Remove or change this placeholder text -->

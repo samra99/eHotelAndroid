@@ -1,0 +1,214 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtRezervacija"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto"
+
+            android:text="Registracija"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/txtImeLayout"
+            android:layout_below="@id/txtRezervacija"
+            >
+
+            <EditText
+                android:id="@+id/txtIme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ime"
+
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/txtPrezimeLayout"
+            android:layout_below="@id/txtImeLayout"
+            >
+
+            <EditText
+                android:id="@+id/txtPrezime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Prezime"
+
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/txtPasosLayout"
+            android:layout_below="@id/txtPrezimeLayout"
+            >
+
+            <EditText
+                android:id="@+id/txtPasos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pasos"
+
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/txtKorisnickoImeLayout"
+            android:layout_below="@id/txtPasosLayout"
+            >
+
+            <EditText
+                android:id="@+id/txtKorisnickoIme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Korisnicko ime"
+
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/txtEmailLayout"
+            android:layout_below="@id/txtKorisnickoImeLayout"
+            >
+
+            <EditText
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/txtLozinkaLayout"
+            android:layout_below="@id/txtEmailLayout"
+            >
+
+            <EditText
+                android:id="@+id/txtLozinka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Lozinka"
+
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:textSize="14dp"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnRegistriraj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registriraj se"
+            android:textAlignment="center"
+            android:layout_marginRight="16dp"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:textColor="@color/black"
+            android:layout_below="@id/txtLozinkaLayout"
+            android:backgroundTint="@color/blue"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:minWidth="64dp"
+            android:textSize="14dp"
+            android:elevation="2dp"
+            android:layout_alignParentRight="true"
+            android:theme="@style/PrimaryButton"
+
+            />
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
